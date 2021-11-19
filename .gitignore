@@ -1,3 +1,7 @@
+# Created by https://www.toptal.com/developers/gitignore/api/c++
+# Edit at https://www.toptal.com/developers/gitignore?templates=c++
+
+### C++ ###
 # Prerequisites
 *.d
 
@@ -10,6 +14,12 @@
 # Precompiled Headers
 *.gch
 *.pch
+
+# Linker files
+*.ilk
+
+# Debugger Files
+*.pdb
 
 # Compiled Dynamic libraries
 *.so
@@ -30,3 +40,9 @@
 *.exe
 *.out
 *.app
+
+#idea
+*.idea
+cmake-build-debug/
+**/CMakeLists.txt
+# End of https://www.toptal.com/developers/gitignore/api/c++
